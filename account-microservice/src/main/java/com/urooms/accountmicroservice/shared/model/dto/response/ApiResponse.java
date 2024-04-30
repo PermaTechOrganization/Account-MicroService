@@ -1,6 +1,6 @@
 package com.urooms.accountmicroservice.shared.model.dto.response;
 
-import com.servifix.restapi.shared.model.enums.Estatus;
+import com.urooms.accountmicroservice.shared.model.enums.Estatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
