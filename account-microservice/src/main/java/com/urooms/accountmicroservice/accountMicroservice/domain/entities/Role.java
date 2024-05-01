@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 @Entity
-@Table(name = "accounts")
+@Table(name = "role")
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Role {
 
