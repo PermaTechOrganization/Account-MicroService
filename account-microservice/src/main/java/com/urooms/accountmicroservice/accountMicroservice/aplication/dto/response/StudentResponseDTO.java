@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class LessorResponseDTO {
+public class StudentResponseDTO {
 
     private int id;
 
@@ -17,11 +17,14 @@ public class LessorResponseDTO {
 
     private String lastName;
 
+    private String gender;
+
     private String dni;
 
     private String phone;
 
     private String photoUrl;
 
-    private AccountResponseDTO account;
+    private int account;
+
 }

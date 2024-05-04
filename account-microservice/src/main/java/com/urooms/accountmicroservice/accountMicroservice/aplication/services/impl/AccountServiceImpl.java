@@ -10,7 +10,6 @@ import com.urooms.accountmicroservice.shared.model.dto.response.ApiResponse;
 import com.urooms.accountmicroservice.shared.model.enums.Estatus;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
-import org.springframework.ui.ModelMap;
 
 import java.util.Optional;
 

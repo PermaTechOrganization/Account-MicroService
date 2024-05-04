@@ -10,24 +10,27 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class LessorRequestDTO {
+public class StudentRequestDTO {
 
-    @NotBlank(message = "firstName is mandatory")
+    @NotBlank(message = "First name is required")
     private String firstName;
 
-    @NotBlank(message = "lastName is mandatory")
+    @NotBlank(message = "Last name is required")
     private String lastName;
 
-    @NotBlank(message = "dni is mandatory")
+    @NotBlank(message = "gender is required")
+    private String gender;
+
+    @NotBlank(message = "DNI is required")
     private String dni;
 
-    @NotBlank(message = "phone is mandatory")
+    @NotBlank(message = "Phone is required")
     private String phone;
 
-    @NotBlank(message = "photoUrl is mandatory")
+    @NotBlank(message = "Photo URL is required")
     private String photoUrl;
 
-    @NotBlank(message = "account is mandatory")
+    @NotBlank(message = "Account is required")
     private int account;
 
 }

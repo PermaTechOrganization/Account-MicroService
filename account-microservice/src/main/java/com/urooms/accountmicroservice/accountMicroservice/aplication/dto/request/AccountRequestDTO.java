@@ -1,9 +1,10 @@
 package com.urooms.accountmicroservice.accountMicroservice.aplication.dto.request;
 
-import com.urooms.accountmicroservice.accountMicroservice.domain.entities.Role;
-import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
